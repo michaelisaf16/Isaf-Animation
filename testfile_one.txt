@@ -1,3 +1,4 @@
 hello
 
 this is a random thing we made
+I am practicing editing files with git and git hub
