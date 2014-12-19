@@ -66,17 +66,21 @@ void draw() {
   
   //make background get brighter as moon gets higher in sky
   //i can't get it to work totally
-  if(michael.dy < 300) {
-//    float b = 200;
-//    float g = 100;
-//  background(12 , g, b);
+  if(michael.dy < 1.5) { 
     g += 1;
     b += 1;
   }
-  if(michael.dy >300) {
+  else {
     b -= 1;
     g -= 1;
   }
+  
+//  background(12, g, b);
+//  
+//  if(michael.dy > 100) {
+//    b += -1;
+//    g += -1;
+//  }
 
   background(12, g, b);
 
